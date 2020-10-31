@@ -1,0 +1,28 @@
+.arial{
+  font-family: Arial;
+  font-size: 20px;
+}
+
+.timesNewRoman{
+  font-family: "Times New Roman";
+  font-size: 20px;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.greenBlock{
+  background: greenyellow;
+}
+
+.redBlock{
+  background: indianred;
+}
+
+.butt{
+  width: 100px;
+  height: 100px;
+}
+
+
