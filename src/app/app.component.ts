@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -9,6 +10,16 @@ export class AppComponent {
   title = 'practice10';
   error = false;
   account = new Account();
+
+
+
+  json = {
+    "Company": "Google",
+    "CEO": "Pichai Sundararajan",
+    "Gender": "Male"
+  };
+
+
 
   toggle(): void{
     this.error = !this.error;

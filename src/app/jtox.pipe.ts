@@ -4,12 +4,8 @@ import { Pipe, PipeTransform } from '@angular/core';
   name: 'jtox'
 })
 export class JtoxPipe implements PipeTransform {
-  answer: string;
-  transform(value: string): string {
-
-
-
-    return null;
+  jsonxml = require('jsontoxml');
+  transform(value: any): any {
+    return this.jsonxml(value);
   }
-
 }
