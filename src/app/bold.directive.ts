@@ -20,20 +20,20 @@ export class BoldDirective {
 
 
 
-//   constructor(private el: ElementRef, private renderer: Renderer2) {
-//     this.toggleBold('normal');
-//   }
+  constructor(private el: ElementRef, private renderer: Renderer2) {
+    this.toggleBold('normal');
+  }
 //
-//   @HostListener('mouseenter') onMouseEnter(): void {
-//     this.toggleBold('bold');
-// }
-//
-//   @HostListener('mouseleave') onMouseLeave(): void {
-//     this.toggleBold('normal');
-// }
-//
-//   private toggleBold(value: string): void{
-//     this.renderer.setStyle(this.el.nativeElement, 'font-weight', value );
-//   }
+  @HostListener('mouseenter') onMouseEnter(): void {
+    this.toggleBold('bold');
+}
+
+  @HostListener('mouseleave') onMouseLeave(): void {
+    this.toggleBold('normal');
+}
+
+  private toggleBold(value: string): void{
+    this.renderer.setStyle(this.el.nativeElement, 'font-weight', value );
+  }
 
 }
